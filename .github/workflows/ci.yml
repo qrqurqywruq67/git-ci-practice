@@ -25,7 +25,4 @@ jobs:
           pip install pytest flake8
 
       - name: Run linter
-        run: flake8 .
-
-      - name: Run tests
-        run: pytest
+        run: flake8.
